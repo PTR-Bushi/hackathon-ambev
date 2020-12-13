@@ -1,6 +1,7 @@
 # Hackathon Ambev
 
-Backend desenvolvido em Django / Django REST Framework
+Backend desenvolvido em Django / Django REST Framework.
+API(s) utilizada(s): OpenWeather <sup>(TM)</sup>
 
 <b>endpoints:</b>\
 `/weather`:\
@@ -10,8 +11,8 @@ lista os objetos de dados de tempo
 `/weather/current`:\
 método: `GET`\
 parâmetros:
- - city: nome da cidade (default: "Berlin")
- - country: código do país (default: "DE")
+ - city: nome da cidade (padrão: "Berlin")
+ - country: código do país (padrão: "DE")
 
 retorna dados de tempo atuais, obtidos há menos de 1 minuto
 
