@@ -102,8 +102,9 @@ def weather_city(request):
 			Temp. máxima: {}ºC<br>
 			Temp. mínima: {}ºC<br>
 			Umidade: {}%<br>
-			Radiação solar: {}%<br>
-			Precipitação: {}%<br>
+			Radiação solar: {}W/m<sup>2</sup><br>
+			Precipitação: {}mm/hr<br>
+			Dados obtidos em {}<br>
 			<br>
 			Escolha cidade para nova consulta
 			<form action="/weather_at_city" method="get">
@@ -122,5 +123,6 @@ def weather_city(request):
 			obj.humidity,
 			obj.solar_rad,
 			obj.precipitation,
+			obj.date_taken.strftime("%d/%m/%Y, %H:%M:%S"),
 		)
 	)
