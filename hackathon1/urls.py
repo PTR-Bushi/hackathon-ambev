@@ -23,5 +23,6 @@ router.register(r'weather', views.WeatherViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls))
+    path('weather_at_city/', views.weather_city),
+    path('', include(router.urls)),
 ]
