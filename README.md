@@ -2,7 +2,7 @@
 
 Backend desenvolvido em Django / Django REST Framework.\
 API(s) utilizada(s):\
-OpenWeather <sup>(TM)</sup>: https://openweathermap.org/\
+OpenWeather <sup>(TM)</sup>: https://openweathermap.org/ \
 Weatherbit.io: https://www.weatherbit.io/
 
 <b>endpoints:</b>\
